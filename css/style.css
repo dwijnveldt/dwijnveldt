@@ -181,6 +181,23 @@ h4 {
     font-size: 1em;
 }
 
+.header {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: left;
+    background: #000;
+}
+.footer {
+    padding-top: 30px;
+    padding-bottom: 120px;
+    text-align: right;
+    background: #000;
+    color: #444;
+    font-weight: 200;
+    font-size: 0.75em;
+}
+
+
 /**
  * BOX HACKING
  */
@@ -201,29 +218,10 @@ html {
     margin-left: auto;
     padding: 1.5em;
 }
-
 body {
     background-color: #000000;
     color: #ffffff;
 }
-
-.header {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    text-align: left;
-    background: #000;
-}
-
-.footer {
-    padding-top: 30px;
-    padding-bottom: 120px;
-    text-align: right;
-    background: #000;
-    color: #444;
-    font-weight: 200;
-    font-size: 0.75em;
-}
-
 .masonry-wrapper {
     padding: 1.5em;
     max-width: 960px;
@@ -356,60 +354,9 @@ body {
     cursor: pointer;
 }
 
-/* 100% Image Width on Smaller Screens */
+/* 100% Image Width on Smaller Screens*/
 @media only screen and (max-width: 700px) {
     .modal-content {
         width: 100%;
     }
-}
-.sidebar {
-  margin-top: 271px;
-  padding: 0;
-  width: 150px;
-  background-color: #000;
-  position: fixed;
-  height: 100%;
-  overflow: auto;
-}
-
-.sidebar a {
-  display: block;
-  color: #444;
-  padding-left: 30px;
-  padding-top: 4px;
-  padding-bottom:4px;
-  text-decoration: none;
-}
- 
-.sidebar a.active {
-  background-color: #000;
-  color: #444;
-}
-
-.sidebar a:hover:not(.active) {
-  background-color: #000;
-  color: #999;
-}
-
-div.content {
-  margin-left: 200px;
-  padding: 1px 16px;
-  height: 1000px;
-}
-
-@media screen and (max-width: 700px) {
-  .sidebar {
-    width: 100%;
-    height: auto;
-    position: relative;
-  }
-  .sidebar a {float: left;}
-  div.content {margin-left: 0;}
-}
-
-@media screen and (max-width: 400px) {
-  .sidebar a {
-    text-align: center;
-    float: none;
-  }
-}
+} 
