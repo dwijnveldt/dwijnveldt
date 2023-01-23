@@ -8,6 +8,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="Dax Wijnveldt" content="Photography">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/lightgallery.css">
+    <!-- lightgallery plugins -->
+    <link type="text/css" rel="stylesheet" href="css/lg-zoom.css" />
+    <link type="text/css" rel="stylesheet" href="css/lg-thumbnail.css" />
 </head>
 
 <body>
@@ -15,6 +19,14 @@
         <div class="header">
             <h1>Dax Wijnveldt</h1>
             <p>Introduction</p>
+        </div>
+        <div id="lightgallery">
+          <a href="images/DSC03219.jpg" data-lg-size="1600-2400">
+            <img alt="img1" src="img/thumb1.jpg" />
+          </a>
+          <a href="images/DSC03224.jpg" data-lg-size="1024-800">
+            <img alt="img2" src="img/thumb2.jpg" />
+          </a>
         </div>
         <div class="masonry">
             <div class="masonry-item">
@@ -47,6 +59,10 @@
         <div id="caption"></div>
     </div>
     <script src="js/script.js"></script>
+    <script src="js/lightgallery.umd.js"></script>
+    <!-- lightgallery plugins -->
+    <script src="js/plugins/lg-thumbnail.umd.js"></script>
+    <script src="js/plugins/lg-zoom.umd.js"></script>
 </body>
 
 </html>
